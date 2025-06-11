@@ -20,7 +20,7 @@ def call_gemini(project_id: str, location: str, prompt: str) -> str:
 
     # Load the specific Gemini model you want to use
     # "gemini-1.5-pro-preview-0409" is a great, powerful choice for coding
-    model = GenerativeModel("gemini-1.5-pro-preview-0409")
+    model = GenerativeModel("gemini-2.5-pro-preview-06-05")
 
     # The model.generate_content() method sends the prompt to the API
     try:
