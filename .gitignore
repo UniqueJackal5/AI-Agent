@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor specific files
+.idea/
+.vscode/
+
+# Files that might contain secrets
+*.json
+*.log
+credentials.json
