@@ -36,7 +36,7 @@ def call_gemini(project_id: str, location: str, prompt: str) -> str:
 if __name__ == '__main__':
     # --- IMPORTANT: CONFIGURE YOUR DETAILS HERE ---
     # 1. Get your Project ID from the Google Cloud Console or by running `gcloud config get-value project`
-    my_project_id = "gen-lang-client-0938657074"  # <--- CHANGE THIS
+    my_project_id = "gen-lang-client-0938657074"
 
     # 2. This is a common location for Vertex AI, you can usually leave it as is.
     my_location = "us-central1"
